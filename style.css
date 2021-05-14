@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.3)), url(./image/nick-chong-0bO235Rhqec-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 17vh 0;
+    text-align: center;
+    position: relative;
+}
+
+.container{
+    width: 450px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    color:deeppink;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.box{
+width: 100%;
+display:flex;
+}
+
+.leftSide .rightSide{
+    width: 100%;
+}
+
+#currency{
+    width: 95%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    outline:none;
+    cursor: pointer;
+    color: #008cff;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.input{
+    width: 95%;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    outline: navy;
+    cursor: pointer;
+    color:black;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 15px;
+    border: 2px solid tomato;
+
+}
+
+.btn{
+    width: 95%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+    padding: 0 5px;
+    border-radius: 15px;
+    background-color: rgb(255, 136, 0);
+}
+
+.text{
+    text-align: center;
+}
